@@ -1,4 +1,4 @@
-FROM datadog/agent:7
+FROM datadog/agent:7.44.1
 
 ENV DD_APM_ENABLED=true
 ENV NON_LOCAL_TRAFFIC=true
